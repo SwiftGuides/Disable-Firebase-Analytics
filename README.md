@@ -3,7 +3,7 @@ This is how to disable Firebase Analytics in your project .
 
 Source :- https://stackoverflow.com/a/51719880/10422074
 
-For 2019, your Info.plist will have entries like this:
+For 2019, your Info.plist will have entries like this(Disables Permanently):
 ```swift
 <key>FIREBASE_ANALYTICS_COLLECTION_ENABLED</key>
 <string>NO</string>
@@ -13,3 +13,6 @@ For 2019, your Info.plist will have entries like this:
 <false/>
 ```
 Note :- It should be in Info.plist, NOT GoogleServices-Info.plist.
+
+
+#### To Re-enable Firebase Analytics it Delete/remove all the above lines from your info.plist.
