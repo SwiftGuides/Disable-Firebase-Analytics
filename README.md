@@ -15,4 +15,4 @@ For 2019, your Info.plist will have entries like this(Disables Permanently):
 Note :- It should be in Info.plist, NOT GoogleServices-Info.plist.
 
 
-#### *To Re-enable Firebase Analytics delete/remove all the above lines from your info.plist.
+#### * To Re-enable Firebase Analytics delete/remove all the above lines from your info.plist.
